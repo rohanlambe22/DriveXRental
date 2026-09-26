@@ -14,7 +14,7 @@ import { AdminDashboardPage } from './pages/AdminDashboardPage';
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <div className="app-main-layout">
           <Navbar />
           <main className="app-content">
