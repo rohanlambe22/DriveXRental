@@ -1,7 +1,10 @@
 import axios from 'axios';
 
 // Create Axios instance with API base URL
-const API_BASE_URL = 'http://localhost:5000/api';
+//const API_BASE_URL = 'http://localhost:5000/api';
+
+// Production API URL
+const API_BASE_URL = 'https://drivex-rental-api.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
