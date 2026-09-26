@@ -1,0 +1,9 @@
+{
+  "name": "car-rental-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix car-rental-ui run dev",
+    "build": "npm --prefix car-rental-ui run build"
+  }
+}

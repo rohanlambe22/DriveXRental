@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="car-rental-ui/car-rental-ui.esproj" />
+  <Project Path="CarRental.API/CarRental.API.csproj" />
+</Solution>

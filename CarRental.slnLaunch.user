@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "CarRental.API\\CarRental.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "car-rental-ui\\car-rental-ui.esproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
